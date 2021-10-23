@@ -1,0 +1,604 @@
+* {
+	font-family:Arial;
+}
+body {
+	margin:0;
+	padding:0;
+}
+header {
+	display:flex;
+	justify-content:center;
+	height:120px;
+}
+.container {
+	display:flex;
+	justify-content:space-between;
+	width:990px;
+}
+.logo {
+	display:flex;
+	align-items:center;
+}
+.menu {
+	display:flex;
+	align-items:center;
+}
+nav ul,
+nav li {
+	list-style: none;
+	margin:0;
+	padding:0;
+}
+nav ul {
+	display:flex;
+}
+nav a {
+	display:block;
+	padding:15px;
+	text-decoration:none;
+	text-transform:uppercase;
+	color:#727272;
+}
+nav .active a,
+nav a:hover {
+	background-color:rgb(35, 250, 53);
+	color:#FFFFFF;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#imagemFundo{
+    height: 670px;
+    background: url(../img/imgFundo.jpg) local no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+}
+.column{
+    flex-direction: column;
+}
+.boxBanner{
+    display: flex;
+    height: 210px;
+}
+#primeiroBox{
+    flex:1;
+	display:flex;
+	flex-direction: column;
+	justify-content:center;
+}
+#primeiroBox h1{
+    color:rgb(35, 250, 53);
+    font-size:70px;
+    font-weight: bold;
+	text-shadow:0px 1px 0px #555555;
+	margin:0;
+	padding:0;
+	max-width:350px;
+}
+#primeiroBox p{
+    color: rgb(71, 255, 86);
+    font-size:21px;
+    font-weight: bold;
+    line-height: 21px;
+	text-shadow:0px 1px 0px #555555;
+	margin:0;
+	padding:0;
+	max-width:350px;
+	margin-top:30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+.box1,
+.box2,
+.box3{
+    flex: 1;
+    color: #fff;
+    padding: 20px;
+}
+.box1{
+    background-color:  rgb(71, 255, 86);
+}
+.box2{
+    background-color: rgb(35, 250, 53);
+}
+.box3{
+    background-color: rgb(0, 255, 21);
+}
+.bannerTitle{
+    font-size: 21px;
+}
+.bannerDesc{
+    font-size:12px;
+	margin-top:20px;
+	margin-bottom:20px;
+}
+
+.boton{
+    display: inline-block;
+    color: #fff;
+    padding: 5px;
+    border: 1px solid #fff;
+    font-size: 13px;
+    text-decoration: none;
+}
+.boton:hover{
+    color: #fff;
+    text-decoration: none;
+}
+.horarios{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.midle{
+    display: flex;
+    justify-content: center;
+}
+.midle section{
+    flex: 2;
+}
+.midle aside{
+    flex: 1;
+}
+.noticiaTitle{
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+.noticiaTitle h4{
+    font-size: 21px;
+    font-weight: bold;
+}
+.linhaVerde{
+    border-top: 2px solid  rgb(0, 255, 21);
+    opacity: 100;
+    right: 0;
+    width: 50px;
+}
+
+
+
+
+
+
+
+
+
+
+.sectionNoti{
+    display: flex;
+    justify-content: center;
+}
+
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+}
+.publi{
+    flex: 1;
+    min-width: 300px;
+    margin-right: 20px;
+}
+.publi a{
+    text-decoration: none;
+    color: #000;
+}
+.publi img{
+    margin-top: 30px;
+    width: 100%;
+    height: auto;
+}
+.h4publi{
+    margin: 25px 0px;
+    font-size: 23px;
+}
+.pPubli{
+    color:#5c5c5c;
+	line-height:20px;
+	font-size:14px;
+	margin-bottom:30px;
+}
+.date{
+    display: flex;
+
+}
+.p1{
+    color: #fff;
+    font-size: 12px;
+    margin-right: 2px;
+    padding: 10px;
+    background-color: rgb(0, 255, 21);
+}
+.p2{
+    color: #fff;
+    font-size: 12px;
+    padding: 10px;
+    background-color:rgb(71, 255, 86);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.departaments{
+    margin-bottom: 30px;
+}
+.quadro{
+    display: flex;
+}
+.divDepartament{
+    float: left;
+    background-color: rgb(71, 255, 86);
+    margin: 10px 20px 10px 0px;
+    height: 120px;
+    width: 120px;
+}
+.make{
+    margin-top: 30px;
+}
+.icone{
+    margin: 5px;
+    float: left;
+    width: 25px;
+    height: 25px;
+}
+.textoIcone{
+    line-height: 32px;
+    margin: 5px;
+}
+.aIcone{
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+}
+.aIcone:hover{
+    color:  rgb(0, 255, 21);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer{
+    background-color: #1e1e1e;
+    height: auto;
+}
+.divFooter{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.inicioFooter{
+    display: flex;
+    justify-content: center;
+}
+.inicioFooter a{
+    display:block;
+	text-decoration: none;
+	color:#FFFFFF;
+}
+.midleFooter{
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+}
+.footer1{
+    flex: 1;
+    height: auto;
+}
+.footer2{
+    flex: 1;
+    margin-left: 20px;
+    height: auto;
+}
+.footer3{
+    flex: 1;
+    margin-left: 20px;
+    height: auto;
+}
+.h4Footer{
+    color: white;
+}
+.pFooter{
+    color: white;
+    font-size: 12px;
+}
+.boxMediFooter{
+    display: flex;
+    justify-content: space-between;
+}
+.aFooter{
+    width: 30px;
+    height: 30px;
+    margin: 0px 5px;
+}
+.setinha{
+    display: flex;
+    justify-content: flex-start;
+    margin: 15px 0px;
+}
+.pSetinha{
+    color: white;
+    margin-bottom: 0px;
+    font-size: 12px;
+}
+.traco{
+    width: 20px;
+    font-size: 12px;
+}
+.aSetinha{
+    text-decoration: none;
+    font-size: 12px;
+}
+.hrFooterUltimo{
+    border-top: 5px solid  rgb(0, 0, 0);
+    border-radius: 10px;
+    opacity: 100;
+    width: 80%;
+}
+.copy{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.pCopy{
+    color: rgb(116, 110, 110);
+    font-size: 15px;
+}
+.aCopy{
+    text-decoration: none;
+    color: white;
+}
+
+.menuMobile {
+	display:none;
+	width:40px;
+	height:40px;
+	margin-top:40px;
+	margin-bottom:40px;
+	margin-right:20px;
+}
+
+.mm_line {
+	height:3px;
+	background-color:rgb(35, 250, 53);
+}
+
+@media (max-width:600px) {
+    .publi{
+        min-width: 250px;
+    }
+    .pCopy{
+        font-size: 13px;
+    }
+    #imagemFundo{
+        background-position: right;
+        height: auto;
+    }
+    #primeiroBox{
+        padding: 20px;
+    }
+    #primeiroBox h1{
+        font-size:55px;
+    }
+    #primeiroBox p{
+        font-size:17px;
+    }
+    .boxBanner{
+        height: auto;
+        flex-direction: column;
+        width: 100%;
+    }
+    .container{
+        width: 100%;
+    }
+    .mobileClass{
+        flex-direction: column;
+    }
+    .footer1,
+    .footer2,
+    .footer3{
+        margin-right: 10px;
+        margin-left: 10px;
+        margin-bottom: 20px;
+    }
+    .copy{
+        margin-right: 20px;
+        margin-left: 20px;
+    }
+    .noticias{
+        margin-right: 20px;
+        margin-left: 20px;
+
+    }
+    .quadro{
+        justify-content: space-around;
+    }
+    header .container {
+        flex-direction: row;
+    }
+
+    nav ul {
+        flex-direction: column;
+        display:none;
+        position: absolute;
+        left: 0;
+        width: 100%;
+        background-color: #FFFFFF;
+    }
+
+    header {
+        height:auto;
+    }
+    .logo {
+        padding-left:20px;
+    }
+
+    .menuMobile {
+        display:flex;
+        flex-direction: column;
+        justify-content:space-around;
+    }
+}
